@@ -1,0 +1,7 @@
+<table border="1">
+  <tr *ngFor="let v of vetor">
+    <td>{{ v.nome }}</td>
+    <td>{{ v.valor }}</td>
+    <td><button (click)="selecionarUmCurso(v)">Selecionar Curso</button></td>
+  </tr>
+</table>
